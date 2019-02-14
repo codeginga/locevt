@@ -11,7 +11,7 @@ type Task interface {
 	Retry() error
 }
 
-// FireOption holds data for fire event
+// FireOption holds data to fire event
 type FireOption struct {
 	Name      string
 	Data      interface{}
