@@ -1,5 +1,7 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/codeginga/locevt)](https://goreportcard.com/report/github.com/codeginga/locevt)
+
 # locevt
-**locevt** manages the event locally. Register a function by name to listen to the event.  Fire event by name with data.
+**locevt** manages the event locally. Register a function (worker) by name to listen to the event.  Fire event by name with data.
 
 **Features:**
 1. Retry mechanism
